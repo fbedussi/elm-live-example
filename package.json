@@ -1,0 +1,19 @@
+{
+  "name": "elm-live-example",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx elm-live src/Main.elm --path-to-elm=./node_modules/.bin/elm --pushstate --hot -- --debug --output=index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "elm-live": "^4.0.2"
+  },
+  "dependencies": {
+    "elm": "^0.19.1-6"
+  }
+}
